@@ -1,0 +1,112 @@
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .ticket-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ticket-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .ticket-item input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  .edit-btn {
+    padding: 5px 10px;
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  .update-btn {
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .update-btn:hover {
+    background-color: #218838;
+  }
+  
+  .cancel-btn {
+    padding: 5px 10px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cancel-btn:hover {
+    background-color: #5a6268;
+  }
+  
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+  }
+  
